@@ -35,6 +35,7 @@ function newGame(){
   addClass(document.querySelector(".letter"),'current');
   document.getElementById('timer').innerHTML = (gameTime/1000) + '';
   window.timer = null;
+  console.log('hello')
 }
 
 //this is the code for toggle the website to dark and light mode
